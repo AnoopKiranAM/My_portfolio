@@ -1,10 +1,17 @@
 import './Header.css'
 import CTA from './CTA'
-import ME from '../../assets/me.png'
+import ME from '../../assets/img_2.png'
 import HeaderSocials from './HeaderSocials'
 
 
 const Header = () => {
+
+    const mystyle = {
+        color: "white",
+        backgroundColor: "DodgerBlue",
+        padding: "10px",
+        fontFamily: "Arial"
+      };
     return ( 
 
         <header>
@@ -16,7 +23,9 @@ const Header = () => {
                 <HeaderSocials />
 
                 <div className="me">
-                    <img src={ME} alt="me" />
+                    <img 
+                    style={{height: "450px", width:"300px", marginLeft:"0.5rem"}}
+                    src={ME} alt="me" />
                 </div>
 
                 <a href='#contact' className='scroll__down'>Scroll Down</a>
