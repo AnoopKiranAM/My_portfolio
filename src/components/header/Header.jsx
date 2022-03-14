@@ -2,6 +2,7 @@ import './Header.css'
 import CTA from './CTA'
 import ME from '../../assets/img_2.png'
 import HeaderSocials from './HeaderSocials'
+import {BsMouse} from 'react-icons/bs'
 
 
 const Header = () => {
@@ -27,7 +28,7 @@ const Header = () => {
                     style={{height: "450px", width:"300px", marginLeft:"0.5rem"}}
                     src={ME} alt="me" />
                 </div>
-
+                <a href='#contact'><BsMouse className='scroll__down mouse__icon' /></a>
                 <a href='#contact' className='scroll__down'>Scroll Down</a>
             </div>
 

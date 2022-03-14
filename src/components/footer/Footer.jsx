@@ -10,10 +10,10 @@ import {FiInstagram} from 'react-icons/fi'
 function Footer() {
   return (
     <footer>
-      {/* <a href="#" className='footer__logo'>Anoop</a> */}
+      <a href="#" className='footer__logo'>Anoop</a>
 
-      <a href='#' className="alpha footer__logo" id="alpha1">A</a>
-      <a href='#' className="alpha footer__logo" id="alpha2">A</a>
+      {/* <a href='#' className="alpha footer__logo" id="alpha1">A</a> */}
+      {/* <a href='#' className="alpha footer__logo" id="alpha2">A</a> */}
 
 
       <ul className="permalinks">
